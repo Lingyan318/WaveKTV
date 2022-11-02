@@ -1,0 +1,121 @@
+.dx-scheduler-timeline .dx-scheduler-date-table-cell,
+.dx-scheduler-timeline
+  .dx-scheduler-header-panel-cell:not(.dx-scheduler-header-panel-week-cell) {
+  width: 10px !important;
+  overflow: hidden;
+}
+/*
+.dx-scheduler-timeline .dx-scheduler-date-table-cell,
+.dx-scheduler-timeline-week
+  .dx-scheduler-header-panel-cell:not(.dx-scheduler-header-panel-week-cell) {
+  width: 5px !important;
+      overflow: hidden;
+}
+*/
+/*
+.dx-scheduler-timeline-week
+  .dx-scheduler-header-panel-cell:not(.dx-scheduler-header-panel-week-cell) {
+  width: 5px !important;
+  overflow: hidden;
+}
+*/
+
+.dx-scheduler-timeline-week .cell-background {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /*  font-size: 4px;*/
+}
+
+.dx-scheduler-timeline-week .cell-background-object {
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgba(200, 200, 200, 0.1),
+      rgba(200, 200, 200, 0.1) 4px,
+      transparent 4px,
+      transparent 9px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(200, 200, 200, 0.1),
+      rgba(200, 200, 200, 0.1) 4px,
+      transparent 4px,
+      transparent 9px
+    );
+  color: #9b6467;
+}
+.dx-scheduler-timeline-week .cell-background-user {
+  overflow: hidden;
+}
+
+.dx-scheduler-timeline-week
+  th.dx-scheduler-header-panel-cell.dx-scheduler-cell-sizes-horizontal:not(.dx-scheduler-header-panel-week-cell) {
+  writing-mode: vertical-lr;
+  font-size: 8px;
+  line-height: 10px;
+  overflow: hidden;
+}
+
+/*
+.dx-scheduler-timeline-week
+  th.dx-scheduler-header-panel-cell.dx-scheduler-cell-sizes-horizontal.dx-scheduler-header-panel-week-cell {
+  writing-mode: inherit;
+  font-size: 14px;
+}
+*/
+
+.occupancy.item {
+  box-sizing: border-box;
+  position: relative;
+  padding: 10px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.occupancy.item-with-handle {
+  cursor: default;
+}
+.occupancy .handle {
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  background-position: 0 0;
+  background-size: 18px 18px;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.right-panel {
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  background-color: gray;
+}
+
+.zvpe-test .dx-drawer-shrink .dx-drawer-panel-content {
+  height: initial;
+}
+
+.zvpe-test .hide-header .dx-scheduler-header {
+  display: none;
+}
+
+.zvpe-test .hide-header .dx-scheduler-header-panel-container {
+  display: none;
+}
+
+.zvpe-test
+  .dx-scheduler-work-space-grouped.dx-scheduler-timeline
+  .dx-scheduler-last-group-cell {
+  border-right: none;
+  border-left: none;
+  padding: 0px;
+}
+.zvpe-test .right-border-cell {
+  border-right: 1px solid rgba(221, 221, 221, 0.6);
+}
+.zvpe-test .left-border-cell {
+  border-left: 1px solid rgba(221, 221, 221, 0.6);
+}

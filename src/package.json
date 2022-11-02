@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@devexpress/dx-react-scheduler-material-ui": "3.0.4",
+    "@devextreme/runtime": "3.0.7",
+    "devexpress-diagram": "2.1.57",
+    "devexpress-gantt": "4.1.30",
+    "devextreme": "22.1.3",
+    "devextreme-quill": "1.5.16",
+    "devextreme-react": "22.1.3",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.4",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "7.4.11",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "Timeline views display appointments as a sequence of events on a horizontal timeline, as opposed to basic views that display appointments in a calendar format. You can use the View Switcher above the timetable to switch between the views.\nList timeline views in the views array to add them to your Scheduler. To activate a specific view at application startup, use the currentView property.\nFor information about all supported view types, refer to the following help topic: View Types.\nThis demo shows multiple calendars side-by-side (with data grouped by resources). For information on how to configure such a display, see the following demos:\n\nResources\nGroup Orientation\n\n",
+  "name": "zvpe-timelines-recurrence-drop-and-drop-v5",
+  "keywords": []
+}
